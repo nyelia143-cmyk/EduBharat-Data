@@ -1,0 +1,62 @@
+{
+  "class_level": "class_1",
+  "subject": "telugu",
+  "language": "te",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "te_c1_01",
+      "title": "వత్తులు - క్ ఖ్ గ్",
+      "type": "LETTER_TRACING",
+      "duration_min": 8,
+      "difficulty": "BEGINNER",
+      "xp_reward": 15,
+      "order": 1
+    },
+    {
+      "id": "te_c1_02",
+      "title": "అమ్మ నాన్న - పదాలు",
+      "type": "WORD_BUILDING",
+      "duration_min": 8,
+      "difficulty": "BEGINNER",
+      "xp_reward": 15,
+      "order": 2
+    },
+    {
+      "id": "te_c1_03",
+      "title": "చిన్న కవిత - పిల్లల రైలు",
+      "type": "READING",
+      "duration_min": 10,
+      "difficulty": "BEGINNER",
+      "xp_reward": 20,
+      "order": 3
+    },
+    {
+      "id": "te_c1_04",
+      "title": "కథ - అమ్మ ప్రేమ",
+      "type": "STORY",
+      "duration_min": 15,
+      "difficulty": "BEGINNER",
+      "xp_reward": 25,
+      "order": 4
+    },
+    {
+      "id": "te_c1_05",
+      "title": "అర్థం చెప్పు - Quiz",
+      "type": "QUIZ",
+      "duration_min": 10,
+      "difficulty": "INTERMEDIATE",
+      "xp_reward": 25,
+      "order": 5
+    },
+    {
+      "id": "te_c1_06",
+      "title": "వ్యతిరేక పదాలు",
+      "type": "EXERCISE",
+      "duration_min": 10,
+      "difficulty": "INTERMEDIATE",
+      "xp_reward": 20,
+      "order": 6
+    }
+  ]
+}
