@@ -1,0 +1,53 @@
+{
+  "class_level": "nursery",
+  "subject": "telugu",
+  "language": "te",
+  "version": 1,
+  "lessons": [
+    {
+      "id": "te_nur_01",
+      "title": "అ ఆ ఇ - మొదటి అక్షరాలు",
+      "type": "LETTER_TRACING",
+      "duration_min": 5,
+      "difficulty": "BEGINNER",
+      "xp_reward": 10,
+      "order": 1
+    },
+    {
+      "id": "te_nur_02",
+      "title": "ఈ ఉ ఊ - స్వరాలు",
+      "type": "LETTER_TRACING",
+      "duration_min": 5,
+      "difficulty": "BEGINNER",
+      "xp_reward": 10,
+      "order": 2
+    },
+    {
+      "id": "te_nur_03",
+      "title": "అమ్మ - మొదటి పదం",
+      "type": "WORD_BUILDING",
+      "duration_min": 8,
+      "difficulty": "BEGINNER",
+      "xp_reward": 15,
+      "order": 3
+    },
+    {
+      "id": "te_nur_04",
+      "title": "చిన్న కథ - అమ్మ",
+      "type": "STORY",
+      "duration_min": 10,
+      "difficulty": "BEGINNER",
+      "xp_reward": 20,
+      "order": 4
+    },
+    {
+      "id": "te_nur_05",
+      "title": "అక్షరాల బొమ్మలు",
+      "type": "DRAWING",
+      "duration_min": 12,
+      "difficulty": "BEGINNER",
+      "xp_reward": 15,
+      "order": 5
+    }
+  ]
+}
