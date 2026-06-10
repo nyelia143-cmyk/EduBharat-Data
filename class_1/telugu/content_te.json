@@ -2,61 +2,459 @@
   "class_level": "class_1",
   "subject": "telugu",
   "language": "te",
-  "version": 1,
+  "version": 2,
   "lessons": [
+
     {
       "id": "te_c1_01",
-      "title": "వత్తులు - క్ ఖ్ గ్",
+      "title": "హల్లులు — క ఖ గ ఘ",
       "type": "LETTER_TRACING",
       "duration_min": 8,
       "difficulty": "BEGINNER",
-      "xp_reward": 15,
-      "order": 1
+      "xp_reward": 10,
+      "order": 1,
+      "description": "క ఖ గ ఘ హల్లులు నేర్చుకుని దిద్దుదాం",
+      "letters": [
+        {
+          "letter": "క",
+          "word":   "కాకి",
+          "meaning":"Crow",
+          "example_sentence": "కాకి నల్లగా ఉంటుంది"
+        },
+        {
+          "letter": "ఖ",
+          "word":   "ఖర్జూరం",
+          "meaning":"Date fruit",
+          "example_sentence": "ఖర్జూరం తియ్యగా ఉంటుంది"
+        },
+        {
+          "letter": "గ",
+          "word":   "గంట",
+          "meaning":"Bell",
+          "example_sentence": "పాఠశాలలో గంట మోగింది"
+        },
+        {
+          "letter": "ఘ",
+          "word":   "ఘడియారం",
+          "meaning":"Clock",
+          "example_sentence": "ఘడియారం సమయం చూపిస్తుంది"
+        }
+      ],
+      "content_pages": [
+        {
+          "page": 1,
+          "heading": "క — కాకి",
+          "body": "క అంటే కాకి.\nకాకి నల్లగా ఉంటుంది.\nకాకి కావు కావు అంటుంది.",
+          "image_hint": "crow"
+        },
+        {
+          "page": 2,
+          "heading": "ఖ — ఖర్జూరం",
+          "body": "ఖ అంటే ఖర్జూరం.\nఖర్జూరం తియ్యగా ఉంటుంది.\nఇది చెట్టు మీద పెరుగుతుంది.",
+          "image_hint": "date_fruit"
+        },
+        {
+          "page": 3,
+          "heading": "గ — గంట",
+          "body": "గ అంటే గంట.\nపాఠశాలలో గంట మోగుతుంది.\nగంట మోగితే పాఠం మొదలవుతుంది.",
+          "image_hint": "bell"
+        }
+      ],
+      "quiz_questions": [
+        {
+          "id": "q1",
+          "question": "క తో మొదలయ్యే పదం ఏది?",
+          "options": ["కాకి", "పాము", "చేప", "పులి"],
+          "correct_answer": 0,
+          "explanation": "కాకి అనే పదం క తో మొదలవుతుంది"
+        },
+        {
+          "id": "q2",
+          "question": "గంట అనే పదంలో మొదటి అక్షరం ఏది?",
+          "options": ["క", "ఖ", "గ", "ఘ"],
+          "correct_answer": 2,
+          "explanation": "గంట అనే పదం గ తో మొదలవుతుంది"
+        },
+        {
+          "id": "q3",
+          "question": "ఘడియారం దేనికి వాడతారు?",
+          "options": ["తినడానికి", "సమయం చూడడానికి", "ఆడుకోవడానికి", "చదవడానికి"],
+          "correct_answer": 1,
+          "explanation": "ఘడియారం సమయం చూడడానికి వాడతారు"
+        }
+      ]
     },
+
     {
       "id": "te_c1_02",
-      "title": "అమ్మ నాన్న - పదాలు",
+      "title": "వత్తులు — క్ ఖ్ గ్ చ్",
+      "type": "LETTER_TRACING",
+      "duration_min": 8,
+      "difficulty": "BEGINNER",
+      "xp_reward": 10,
+      "order": 2,
+      "description": "వత్తులు నేర్చుకుని సరిగ్గా రాయడం నేర్చుకుందాం",
+      "letters": [
+        {
+          "letter": "క్",
+          "word":   "పక్కన",
+          "meaning":"Beside",
+          "example_sentence": "నా పక్కన అమ్మ ఉంది"
+        },
+        {
+          "letter": "గ్",
+          "word":   "ముగ్గు",
+          "meaning":"Rangoli",
+          "example_sentence": "అమ్మ ముగ్గు వేసింది"
+        },
+        {
+          "letter": "చ్",
+          "word":   "అచ్చు",
+          "meaning":"Print",
+          "example_sentence": "అచ్చు అక్షరాలు బాగుంటాయి"
+        },
+        {
+          "letter": "న్",
+          "word":   "కన్ను",
+          "meaning":"Eye",
+          "example_sentence": "కన్ను సరిగ్గా చూస్తుంది"
+        }
+      ],
+      "content_pages": [
+        {
+          "page": 1,
+          "heading": "వత్తు అంటే ఏమిటి?",
+          "body": "రెండు హల్లులు కలిసినప్పుడు వత్తు వస్తుంది.\nఉదాహరణ: క + క = క్క\nపక్కన అనే పదంలో క్క వస్తుంది.",
+          "image_hint": "vattulu_example"
+        },
+        {
+          "page": 2,
+          "heading": "క్ వత్తు",
+          "body": "పక్కన, చక్కని, చక్కర\nఈ పదాలలో క్క వత్తు వస్తుంది.\nజాగ్రత్తగా దిద్దు.",
+          "image_hint": "ka_vatthu"
+        }
+      ],
+      "quiz_questions": [
+        {
+          "id": "q1",
+          "question": "పక్కన అనే పదంలో వత్తు ఏది?",
+          "options": ["ప్", "క్క", "న్", "అ"],
+          "correct_answer": 1,
+          "explanation": "పక్కన లో క్క వత్తు ఉంది"
+        },
+        {
+          "id": "q2",
+          "question": "కన్ను అనే పదంలో వత్తు ఏది?",
+          "options": ["క్", "అ", "న్న", "ఉ"],
+          "correct_answer": 2,
+          "explanation": "కన్ను లో న్న వత్తు ఉంది"
+        },
+        {
+          "id": "q3",
+          "question": "ముగ్గు లో ఏ వత్తు వస్తుంది?",
+          "options": ["మ్", "గ్గ", "ఉ", "న్"],
+          "correct_answer": 1,
+          "explanation": "ముగ్గు లో గ్గ వత్తు ఉంది"
+        }
+      ]
+    },
+
+    {
+      "id": "te_c1_03",
+      "title": "అమ్మ, నాన్న, పాఠశాల — పదాలు",
       "type": "WORD_BUILDING",
       "duration_min": 8,
       "difficulty": "BEGINNER",
       "xp_reward": 15,
-      "order": 2
+      "order": 3,
+      "description": "రోజువారీ జీవితంలో వాడే పదాలు నేర్చుకుందాం",
+      "words": [
+        {
+          "word":    "అమ్మ",
+          "meaning": "Mother",
+          "letters": ["అ", "మ్మ"],
+          "sentence": "అమ్మ వంట చేస్తుంది",
+          "image_hint": "mother"
+        },
+        {
+          "word":    "నాన్న",
+          "meaning": "Father",
+          "letters": ["నా", "న్న"],
+          "sentence": "నాన్న పని చేస్తాడు",
+          "image_hint": "father"
+        },
+        {
+          "word":    "పాఠశాల",
+          "meaning": "School",
+          "letters": ["పా", "ఠ", "శా", "ల"],
+          "sentence": "నేను పాఠశాలకు వెళ్తాను",
+          "image_hint": "school"
+        },
+        {
+          "word":    "పుస్తకం",
+          "meaning": "Book",
+          "letters": ["పు", "స్త", "కం"],
+          "sentence": "పుస్తకం చదవడం మంచిది",
+          "image_hint": "book"
+        },
+        {
+          "word":    "నీళ్ళు",
+          "meaning": "Water",
+          "letters": ["నీ", "ళ్ళు"],
+          "sentence": "నీళ్ళు తాగడం మంచిది",
+          "image_hint": "water"
+        }
+      ],
+      "content_pages": [
+        {
+          "page": 1,
+          "heading": "అమ్మ",
+          "body": "అమ్మ అంటే తల్లి.\nఅమ్మ మనకు వంట చేస్తుంది.\nఅమ్మను ప్రేమించాలి.",
+          "image_hint": "mother"
+        },
+        {
+          "page": 2,
+          "heading": "పాఠశాల",
+          "body": "పాఠశాల అంటే School.\nపాఠశాలలో చదువుకుంటాం.\nపాఠశాలలో మిత్రులు ఉంటారు.",
+          "image_hint": "school"
+        }
+      ],
+      "quiz_questions": [
+        {
+          "id": "q1",
+          "question": "అమ్మ అంటే ఇంగ్లీషులో ఏమంటారు?",
+          "options": ["Father", "Mother", "Sister", "Brother"],
+          "correct_answer": 1,
+          "explanation": "అమ్మ అంటే Mother అని అర్థం"
+        },
+        {
+          "id": "q2",
+          "question": "పాఠశాలలో మనం ఏం చేస్తాం?",
+          "options": ["నిద్రపోతాం", "చదువుకుంటాం", "వంట చేస్తాం", "ఆడుకుంటాం మాత్రమే"],
+          "correct_answer": 1,
+          "explanation": "పాఠశాలలో చదువుకుంటాం మరియు ఆడుకుంటాం"
+        },
+        {
+          "id": "q3",
+          "question": "పుస్తకం అంటే ఇంగ్లీషులో?",
+          "options": ["Pen", "Book", "Bag", "Chair"],
+          "correct_answer": 1,
+          "explanation": "పుస్తకం అంటే Book"
+        },
+        {
+          "id": "q4",
+          "question": "నీళ్ళు తాగడం ఎందుకు మంచిది?",
+          "options": ["రంగు బాగుంటుంది కాబట్టి", "ఆరోగ్యానికి మంచిది కాబట్టి", "తియ్యగా ఉంటుంది కాబట్టి", "చల్లగా ఉంటుంది కాబట్టి"],
+          "correct_answer": 1,
+          "explanation": "నీళ్ళు తాగడం ఆరోగ్యానికి మంచిది"
+        }
+      ]
     },
+
     {
-      "id": "te_c1_03",
-      "title": "చిన్న కవిత - పిల్లల రైలు",
+      "id": "te_c1_04",
+      "title": "పిల్లల రైలు — చిన్న కవిత",
       "type": "READING",
       "duration_min": 10,
       "difficulty": "BEGINNER",
-      "xp_reward": 20,
-      "order": 3
+      "xp_reward": 15,
+      "order": 4,
+      "description": "రైలు గురించి చిన్న కవిత చదివి అర్థం చేసుకుందాం",
+      "content_pages": [
+        {
+          "page": 1,
+          "heading": "పిల్లల రైలు — కవిత",
+          "body": "పిల్లల రైలు వచ్చింది\nఢమ్ ఢమ్ ఢమ్మని వచ్చింది\nపొగలు వదులుతూ వచ్చింది\nమనల్ని తీసుకు వెళ్తుంది\n\nకొండలు దాటి వెళ్తుంది\nనదులు దాటి వెళ్తుంది\nపట్టణాలు చూపిస్తుంది\nమనకు ఆనందం ఇస్తుంది",
+          "image_hint": "train"
+        },
+        {
+          "page": 2,
+          "heading": "కవిత అర్థం",
+          "body": "రైలు చాలా వేగంగా వెళ్తుంది.\nరైలు పొగలు వదులుతూ వెళ్తుంది.\nరైలు మనల్ని దూర ప్రదేశాలకు తీసుకు వెళ్తుంది.\nరైలులో ప్రయాణం చాలా ఆనందంగా ఉంటుంది.",
+          "image_hint": "train_journey"
+        },
+        {
+          "page": 3,
+          "heading": "కొత్త పదాలు",
+          "body": "పొగలు = Smoke\nకొండలు = Mountains\nనదులు = Rivers\nపట్టణాలు = Towns\nప్రయాణం = Journey",
+          "image_hint": "new_words"
+        }
+      ],
+      "quiz_questions": [
+        {
+          "id": "q1",
+          "question": "రైలు ఎలా వస్తుంది అని కవితలో చెప్పారు?",
+          "options": ["నిమ్మళంగా", "ఢమ్ ఢమ్ అని", "చప్పుడు లేకుండా", "నెమ్మదిగా"],
+          "correct_answer": 1,
+          "explanation": "కవితలో రైలు ఢమ్ ఢమ్ అని వస్తుందని చెప్పారు"
+        },
+        {
+          "id": "q2",
+          "question": "రైలు ఏమి వదులుతూ వెళ్తుంది?",
+          "options": ["నీళ్ళు", "పూలు", "పొగలు", "పళ్ళు"],
+          "correct_answer": 2,
+          "explanation": "రైలు పొగలు వదులుతూ వెళ్తుంది"
+        },
+        {
+          "id": "q3",
+          "question": "రైలు మనకు ఏమి ఇస్తుందని కవిత చెప్తుంది?",
+          "options": ["డబ్బు", "ఆనందం", "ఆహారం", "పుస్తకాలు"],
+          "correct_answer": 1,
+          "explanation": "రైలు మనకు ఆనందం ఇస్తుంది"
+        },
+        {
+          "id": "q4",
+          "question": "నదులు అంటే ఇంగ్లీషులో?",
+          "options": ["Mountains", "Towns", "Rivers", "Trees"],
+          "correct_answer": 2,
+          "explanation": "నదులు అంటే Rivers"
+        },
+        {
+          "id": "q5",
+          "question": "రైలు ఏమేమి దాటి వెళ్తుంది?",
+          "options": ["కొండలు మాత్రమే", "నదులు మాత్రమే", "కొండలు మరియు నదులు", "పట్టణాలు మాత్రమే"],
+          "correct_answer": 2,
+          "explanation": "రైలు కొండలు మరియు నదులు రెండూ దాటి వెళ్తుంది"
+        }
+      ]
     },
+
     {
-      "id": "te_c1_04",
-      "title": "కథ - అమ్మ ప్రేమ",
+      "id": "te_c1_05",
+      "title": "అమ్మ ప్రేమ — కథ చదవడం",
       "type": "STORY",
       "duration_min": 15,
       "difficulty": "BEGINNER",
-      "xp_reward": 25,
-      "order": 4
+      "xp_reward": 20,
+      "order": 5,
+      "description": "అమ్మ ప్రేమ గురించి చిన్న కథ చదివి నేర్చుకుందాం",
+      "content_pages": [
+        {
+          "page": 1,
+          "heading": "అమ్మ ప్రేమ — కథ",
+          "body": "రాము ఒక చిన్న పిల్లాడు.\nతనకు ఒక అమ్మ ఉంది.\nఅమ్మ పేరు సీత.",
+          "image_hint": "boy_with_mother"
+        },
+        {
+          "page": 2,
+          "heading": "కథ కొనసాగింపు",
+          "body": "ఒకరోజు రాముకు జ్వరం వచ్చింది.\nఅమ్మ రాత్రంతా మేలుకుంది.\nమందు ఇచ్చింది. సేవ చేసింది.",
+          "image_hint": "mother_caring"
+        },
+        {
+          "page": 3,
+          "heading": "కథ ముగింపు",
+          "body": "రెండు రోజులలో రాముకు జ్వరం తగ్గింది.\nరాముకు అమ్మ ఎంత గొప్పదో అర్థమైంది.\nరాము అమ్మను గట్టిగా హత్తుకున్నాడు.\nఅమ్మ నవ్వింది.",
+          "image_hint": "happy_ending"
+        },
+        {
+          "page": 4,
+          "heading": "కథలో నేర్చుకున్నది",
+          "body": "అమ్మ మనకు చాలా ప్రేమ ఇస్తుంది.\nమనం జబ్బు పడినప్పుడు అమ్మ సేవ చేస్తుంది.\nమనం కూడా అమ్మను ప్రేమించాలి.\nఅమ్మకు సహాయం చేయాలి.",
+          "image_hint": "moral"
+        }
+      ],
+      "moral": "అమ్మను ప్రేమించాలి. అమ్మకు సహాయం చేయాలి.",
+      "new_words": [
+        {"word": "జ్వరం", "meaning": "Fever"},
+        {"word": "మేలుకుంది", "meaning": "Stayed awake"},
+        {"word": "సేవ", "meaning": "Care / Service"},
+        {"word": "హత్తుకున్నాడు", "meaning": "Hugged"}
+      ],
+      "quiz_questions": [
+        {
+          "id": "q1",
+          "question": "కథలో పిల్లాడి పేరు ఏమిటి?",
+          "options": ["కృష్ణ", "రాము", "రాజు", "సురేష్"],
+          "correct_answer": 1,
+          "explanation": "కథలో పిల్లాడి పేరు రాము"
+        },
+        {
+          "id": "q2",
+          "question": "రాముకు ఏమి వచ్చింది?",
+          "options": ["దగ్గు", "జ్వరం", "కడుపు నొప్పి", "తలనొప్పి"],
+          "correct_answer": 1,
+          "explanation": "రాముకు జ్వరం వచ్చింది"
+        },
+        {
+          "id": "q3",
+          "question": "అమ్మ రాత్రంతా ఏమి చేసింది?",
+          "options": ["నిద్రపోయింది", "వంట చేసింది", "మేలుకుంది", "వెళ్ళిపోయింది"],
+          "correct_answer": 2,
+          "explanation": "అమ్మ రాత్రంతా మేలుకుని సేవ చేసింది"
+        },
+        {
+          "id": "q4",
+          "question": "కథ నుండి మనం ఏం నేర్చుకున్నాం?",
+          "options": ["అమ్మను పట్టించుకోకూడదు", "అమ్మను ప్రేమించాలి", "అమ్మతో మాట్లాడకూడదు", "అమ్మను తిట్టాలి"],
+          "correct_answer": 1,
+          "explanation": "అమ్మను ప్రేమించాలి మరియు సహాయం చేయాలి"
+        },
+        {
+          "id": "q5",
+          "question": "రాము జ్వరం తగ్గడానికి ఎంత రోజులు పట్టింది?",
+          "options": ["ఒక రోజు", "రెండు రోజులు", "వారం రోజులు", "ఒక నెల"],
+          "correct_answer": 1,
+          "explanation": "రెండు రోజులలో రాముకు జ్వరం తగ్గింది"
+        }
+      ]
     },
+
     {
-      "id": "te_c1_05",
-      "title": "అర్థం చెప్పు - Quiz",
+      "id": "te_c1_06",
+      "title": "వ్యతిరేక పదాలు — Quiz",
       "type": "QUIZ",
       "duration_min": 10,
       "difficulty": "INTERMEDIATE",
       "xp_reward": 25,
-      "order": 5
-    },
-    {
-      "id": "te_c1_06",
-      "title": "వ్యతిరేక పదాలు",
-      "type": "EXERCISE",
-      "duration_min": 10,
-      "difficulty": "INTERMEDIATE",
-      "xp_reward": 20,
-      "order": 6
+      "order": 6,
+      "description": "వ్యతిరేక పదాలు నేర్చుకుని Quiz లో answer చేద్దాం",
+      "content_pages": [
+        {
+          "page": 1,
+          "heading": "వ్యతిరేక పదాలు అంటే?",
+          "body": "వ్యతిరేక పదాలు అంటే opposite words.\nఉదాహరణ:\nపెద్ద × చిన్న\nమంచి × చెడు\nవేడి × చల్లని\nపగలు × రాత్రి\nసంతోషం × దుఃఖం",
+          "image_hint": "opposites_chart"
+        }
+      ],
+      "quiz_questions": [
+        {
+          "id": "q1",
+          "question": "పెద్ద అనే పదానికి వ్యతిరేకం ఏది?",
+          "options": ["మంచి", "చిన్న", "పొడవు", "గుండ్రం"],
+          "correct_answer": 1,
+          "explanation": "పెద్ద యొక్క వ్యతిరేకం చిన్న"
+        },
+        {
+          "id": "q2",
+          "question": "పగలు అనే పదానికి వ్యతిరేకం ఏది?",
+          "options": ["ఉదయం", "సాయంత్రం", "రాత్రి", "మధ్యాహ్నం"],
+          "correct_answer": 2,
+          "explanation": "పగలు యొక్క వ్యతిరేకం రాత్రి"
+        },
+        {
+          "id": "q3",
+          "question": "వేడి అనే పదానికి వ్యతిరేకం ఏది?",
+          "options": ["వెచ్చని", "చల్లని", "గోరువెచ్చని", "మంట"],
+          "correct_answer": 1,
+          "explanation": "వేడి యొక్క వ్యతిరేకం చల్లని"
+        },
+        {
+          "id": "q4",
+          "question": "మంచి అనే పదానికి వ్యతిరేకం ఏది?",
+          "options": ["బాగు", "చెడు", "పాడు", "మురికి"],
+          "correct_answer": 1,
+          "explanation": "మంచి యొక్క వ్యతిరేకం చెడు"
+        },
+        {
+          "id": "q5",
+          "question": "సంతోషం అనే పదానికి వ్యతిరేకం ఏది?",
+          "options": ["ఆనందం", "సుఖం", "దుఃఖం", "నవ్వు"],
+          "correct_answer": 2,
+          "explanation": "సంతోషం యొక్క వ్యతిరేకం దుఃఖం"
+        }
+      ]
     }
+
   ]
 }
